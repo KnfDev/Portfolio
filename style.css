@@ -35,6 +35,14 @@ a {
     color: bisque;
 }
 
+a:visited {
+    color:darkgrey;
+}
+
+a:hover {
+    color:cadetblue;
+}
+
 #knfMain {
     color: darkslategray;
     padding-left: 30%;
