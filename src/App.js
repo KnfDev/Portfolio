@@ -10,7 +10,7 @@ function App() {
     <div className="container-fluid">
       <div className="row navBar">
         <span className="col">
-          <a href="#About_Me">About Me</a>
+          <a href="#About_Me">About</a>
         </span>
         <span className="col">
           <a href={Resume}>Resume</a>
@@ -20,7 +20,7 @@ function App() {
         </span>
       </div>
       <div className="row header">
-        <div className="col col-sm col-lg-4 col-xl-4">
+        <div className="col col col-lg-4 col-xl-4">
           <p className="aloha">
             <span className="pineapple">Aloha</span>, I'm Kenneth & I'm a
             Full-Stack Developer
@@ -152,23 +152,55 @@ function App() {
         </span>
       </div>
 
-      <div className="row projectRow3">
-        <span className="projectSspan col col-sm col-lg-6 col-xl-6">
-          <a href="https://knfdevflashcard.vercel.app/">
+      <div className="row projectRow1">
+        <span className="col col-sm col-lg-6 col-xl-6">
+          <a href="https://github.com/KnfDev/Study-Tool-Application">
             <img className="project1" src={Study} alt="" />
           </a>
           <div className="description">
             <p>
-              Description Here
+              Uses Riot API to make get requests for player and match
+              information, All champion and item Icons also pulled from Riot API
             </p>
             <p>Front-end: React.js || Javascript || CSS || Bootstrap</p>
-            <p>Back-end: Axios || Express.js</p>
+            <p>Back-end: Axios || Express.js || Riot API</p>
           </div>
         </span>
-        <div className="col study-info">
-          <h3>Flashcard Study App</h3>
+        <div className="col league-info">
+          <h3>Flashcard Study app - Front-end deployed only - github linked</h3>
           <p>
-            Description here
+
+          </p>
+          <p>I am gamer.</p>
+          <p>
+            Have been one since 3rd grade when my parents made their first big
+            mistake of getting me a Sega Genesis.
+          </p>
+          <p>
+            Since that day I've loved games. Tetris,{" "}
+            <span className="mario">Mario</span>, Sonic, Banjo Kazooie,
+            PowerStone, Battle Toads.. The list is endless
+          </p>
+          <p>
+            Fast forward to 7th grade and we hit big mistake number two.. They
+            got me a pc and our internet connection at the time was AOL.. which
+            happened to offer Warcraft 2, which happened to charged you $/minute
+            played, I can't tell you how mad my parents were when the internet
+            bill for the month was $200~{" "}
+          </p>
+          <p>
+            From there I loved all the Blizzard games of that era; Diablo,
+            Starcraft, Warcraft. Warcraft 3 had Dota which eventually led me to
+            League of Legends
+          </p>
+          <p>
+            I am ashamed to say I have played and loved League for 10+ years
+            now, I've made so many friends around the world through League and
+            I've even gotten into some relationships with people who played
+            league in Hawaii. It's been a huge part of my life so I decided to
+            try my hand at replicating one of the stat trackers out there like
+            op.gg or u.gg since game design itself is currently outside of what
+            I am capable of.
           </p>
         </div>
       </div>
