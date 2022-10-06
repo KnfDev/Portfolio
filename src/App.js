@@ -160,9 +160,8 @@ function App() {
             financial reasons.
           </p>
           <p>
-            In the beginning of 2022 I had a big life changing moment, no it
-            wasn't Covid. But it really made me reevaluate my life and what I
-            had accomplished up until now.
+            In the beginning of 2022 I had a big life changing moment which
+            really made me reevaluate my life.
           </p>
           <p>
             I decided I wanted to live in a way that whether it's 5 years from
