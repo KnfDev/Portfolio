@@ -28,9 +28,9 @@ function App() {
             Full-Stack Developer
           </p>
         </div>
-        <div className="col col-sm col-lg-4 col-xl-4">
+        {/* <div className="col col-sm col-lg-4 col-xl-4">
           <img className="script" src={script} alt="" />
-        </div>
+        </div> */}
       </div>
 
       <div className="row projectRow1">
