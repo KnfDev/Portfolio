@@ -22,15 +22,15 @@ function App() {
         </span>
       </div>
       <div className="row header">
-        <div className="col col col-lg-4 col-xl-4">
+        <div className="test col col col-lg-7 col-xl-8">
           <p className="aloha">
             <span className="pineapple">Aloha</span>, I'm Kenneth & I'm a
             Full-Stack Developer
           </p>
         </div>
-        {/* <div className="col col-sm col-lg-4 col-xl-4">
-          <img className="script" src={script} alt="" />
-        </div> */}
+        <div className="col col-sm col-lg-4 col-xl-4">
+          <img className="script" src={Photo} alt="" />
+        </div>
       </div>
 
       <div className="row projectRow1">
@@ -91,13 +91,14 @@ function App() {
           </div>
         </span>
         <div className="col restaurant-info panel">
-          <h3>Restaurant App</h3>
+          <h3>Restaurant App Full-Stack Dynamic</h3>
           <p>
             This is a project developed with my team at Thinkful, it's a
-            restaurant reservations and tables management App. To be honest the
-            whole time I was learning how to code it felt like a struggle and
-            there were definitely a lot of moments I thought this wasn't the
-            right field for me.
+            restaurant reservations and tables management App that interacts
+            with a PostgreSQL database. To be honest the whole time I was
+            learning how to program it felt like a struggle and there were
+            definitely a lot of moments I thought this wasn't something I was
+            capable of doing anymore at my age.
           </p>
 
           <p>
@@ -105,112 +106,87 @@ function App() {
             while working on this project I really felt like everything began to
             click. While I had mostly been in the passenger seat throughout a
             large part of the program, I finally felt like I was able to be the
-            driver for this project and it felt really good! I wanted to go for
-            a more modern Cafe type feel for the aesthetics because I've always
-            loved cafes and there aren't that many in Hawaii.
+            driver for this project and it felt really good!
+          </p>
+          <p>
+            I wanted to go for a more modern Cafe type feel for the aesthetics
+            because I've always loved cafes and there aren't that many in
+            Hawaii.
           </p>
         </div>
       </div>
+
       <div className="row projectRow1">
-        <span className="col col-sm col-lg-6 col-xl-6">
+        <span className="col col-sm col-m col-lg-6 col-xl-6">
           <a href="https://github.com/KnfDev/Study-Tool-Application">
             <img className="project1" src={Study} alt="" />
           </a>
           <div className="description">
-            <p>
-              Uses Riot API to make get requests for player and match
-              information, All champion and item Icons also pulled from Riot API
-            </p>
+            <p>Description Here</p>
             <p>Front-end: React.js || Javascript || CSS || Bootstrap</p>
-            <p>Back-end: Axios || Express.js || Riot API</p>
+            <p>Back-end: Axios || Express.js</p>
           </div>
         </span>
         <div className="col league-info panel">
           <h3>Flashcard Study app - Front-end deployed only - github linked</h3>
+          <p>Description Here</p>
         </div>
       </div>
 
       <div id="About_Me" className="row aboutMe">
         <div className="heading">About Me</div>
-        <div className="aboutMeInfo col col-l-9 col-xl-9">
+        <div className="aboutMeInfo col">
+          <p>Aloha!</p>
+          I'm Kenneth from the beautiful sate of Hawaii and I'll be turning 34
+          on Oct 28 2022,
           <p>
-            Aloha! I'm a software developer based in Hawaii and I recently quit
-            my job of 5 years working Front Desk at a hotel.
-            <p>
-              I've been in hospitality for more than half my life now, starting
-              in the food service industry at the age of 14.
-            </p>
-            <p>
-            By Hawaii standards, the pay at my recent job was actually pretty
-            good, enough to pay a mortgage and still have some spending money
-            left over to enjoy and I was kind of muddling through my life
-            settling for that. 
-            </p>
-            <p>
-            That is until recently where I had a big life-changing experience
-            and it really made me reevaluate my life and what I had done up
-            until that point... 
-            </p>
-            <p>
-            The conclusion that I came to was that I wasn't
-            happy, I didn't feel fulfilled or accomplished, and I didn't feel
-            like I was important or I existed or made an impact in any way and
-            these feelings were bleeding into my personal life and
-            relationships, personally it was the darkest year of my life. 
-            </p>
-            <p>
-            10 years ago I actually had been enrolled at my local college with
-            Computer Science as my intended major but I had to drop out due to
-            financial reasons and continued working full-time in the hospitality
-            industry.
-            </p>
-            <p>
-
-            Fast forward to the present and I realized I haven't ever
-            really accomplished anything that I could be proud of. So I decided
-            I wanted to live my life from that point on in a way that 10 years
-            from now, or 20 years or at the end of my life, I can look back and
-            not have any regrets, say that I tried my best and be proud of
-            myself and what I've done. 
-            </p>
-            <p>
-            I swallowed my pride and asked to move
-            back into my parent's home, I quit my job and enrolled in a
-            Full-stack Immersive Software Engineering program at Thinkful to
-            take a step toward completing what I had started 10 years ago. 
-            </p>
-            <p>
-
-            It's
-            been a difficult 6 months, I've never felt more incompetent or
+            To keep things short, I've been in hospitality for almost 20 years
+            now. First job was at Cold Stones when I was 14 or 15 years old and
+            I was working as a Front Desk Representative for The Marriott for
+            the past 5 years.
+          </p>
+          <p>
+            In the beginning of 2022 I had a big life changing moment, no it
+            wasn't Covid. But it really made me reevaluate my life and what I
+            had accomplished up until now.
+          </p>
+          <p>
+            Sad to say what I realized was that I hadn't accomplished much,
+            there wasn't much I was proud of, and my life was full of regret.
+          </p>
+          <p>
+            10 years ago I had actually been enrolled at my local College for
+            Computer Science but I had to drop out due to financial reasons, 10
+            years later I had managed to become a home owner and I was making
+            enough to pay for mortgage and still have some money left over to
+            enjoy. I was miserable.
+          </p>
+          <p>
+            I decided I wanted to live in a way that whether it's 5 years from
+            today, or 10 years, or at the end of my life I can look back and be
+            proud of myself. So I enrolled at Thinkful in their Software
+            Engineering Immersion program to take a step toward
+            completing what I attempted a decade ago.
+          </p>
+          <p>
+            It’s been a difficult 6 months, I’ve never felt more incompetent or
             stupid in my life, and I really doubted if this was something that I
             was capable of doing anymore at this point. While my confidence has
             been at an all-time low, I am able to say that even though there
             were many head-banging and hair-pulling moments I enjoyed every
-            second of it. 
-            </p>
-            <p>
-
-            Now almost 6 months since the start of the program I
-            am absolutely ecstatic to announce I have completed the course. I
-            know this is just the first small step and I have a really long road
-            ahead of me, but I'm so happy to be able to say that I have no
-            regrets about starting this new journey regardless of where it takes
-            me. I really want to thank all the instructors, teachers assistants,
-            and all my cohort mates who helped pull me through to the end! Also
-            much thanks to all who took the time to read this, It was very
-            embarrassing! 
-            </p>
-            <p>
-
-            Mahalo lui noa and ahui hou kakou! 
-            <p>
-              Kenneth
-            </p>
-            </p>
+            second of it.
           </p>
+          <p>
+            I know this is just the first single small step and I have a really long
+            road ahead of me, but I’m so happy to be able to say that I have no
+            regrets about starting this new journey regardless of where it takes
+            me.
+          </p>
+          <br />
+          <p>Mahalo lui noa and ahui hou kakou!</p>
+          <p>Kenneth</p>
         </div>
-            <img className="me col" src={Photo} alt="" />
+        {/* <img className="me col" src={Photo} alt="" /> */}
         <div className="row footer">
           <div className="linkedin">
             <a

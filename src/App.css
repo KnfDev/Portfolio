@@ -33,10 +33,8 @@ body {
 
 
 .script {
-  margin-left: 85%;
-  width: 95%;
-  transform: skewY(-1deg);
-  opacity: 0.5
+  width: 75%;
+  border-radius: 50%;
 }
 
 
@@ -167,9 +165,10 @@ body {
 
 
 .aboutMeInfo {
-  text-align: left;
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
+  text-align:center;
+  margin: 10px 13%;
 }
 
 .project2Span > a {
@@ -211,6 +210,10 @@ body {
   line-height: 97%;
 }
 
+.test {
+  align-self: center;
+}
+
 .aloha {
   width: 100%;
   padding-top: 50px;
@@ -228,6 +231,10 @@ body {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.header {
+  justify-content: space-between;
 }
 
 .App-header {
