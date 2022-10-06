@@ -6,6 +6,8 @@ import Photo from "./images/Photo.png";
 import script from "./images/script.png"
 import Study from "./images/Study.png"
 function App() {
+
+  
   return (
     <div className="container-fluid">
       <div className="row navBar">
@@ -45,7 +47,7 @@ function App() {
             <p>Back-end: Axios || Express.js || Riot API</p>
           </div>
         </span>
-        <div className="col league-info">
+        <div className="col league-info panel">
           <h3>League of Legends stat aggregator clone (work in progress)</h3>
           <p>
             This is my first personal project and I wanted to make something
@@ -89,7 +91,27 @@ function App() {
       </div>
 
       <div className="row projectRow2">
-        <div className="col restaurant-info">
+      <span className="project2Span col col-sm col-lg-6 col-xl-6">
+          <a
+            className="project2a"
+            href="https://knf-restaurant-client.herokuapp.com/dashboard"
+          >
+            <img className="project2" src={RestaurantLanding} alt="" />
+          </a>
+          <div className="description">
+            <p>
+              A dynamic Full-Stack project with a Front-end UI built on react
+              that can make GET, POST, PUT, DELETE requests to a PostgreSQL
+              Database through a Back-end built with Knex and Express.
+            </p>
+            <p>Front-end: React.js || Javascript || CSS || Bootstrap</p>
+            <p>
+              Back-end: Knex || Express.js || Node.js || PostgreSQL || RESTful
+              API
+            </p>
+          </div>
+        </span>
+        <div className="col restaurant-info panel">
           <h3>Restaurant App</h3>
           <p>
             I went to College for Culinary Arts. Not a choice I would make
@@ -130,26 +152,7 @@ function App() {
             loved cafes and there aren't that many in Hawaii.
           </p>
         </div>
-        <span className="project2Span col col-sm col-lg-6 col-xl-6">
-          <a
-            className="project2a"
-            href="https://knf-restaurant-client.herokuapp.com/dashboard"
-          >
-            <img className="project2" src={RestaurantLanding} alt="" />
-          </a>
-          <div className="description">
-            <p>
-              A dynamic Full-Stack project with a Front-end UI built on react
-              that can make GET, POST, PUT, DELETE requests to a PostgreSQL
-              Database through a Back-end built with Knex and Express.
-            </p>
-            <p>Front-end: React.js || Javascript || CSS || Bootstrap</p>
-            <p>
-              Back-end: Knex || Express.js || Node.js || PostgreSQL || RESTful
-              API
-            </p>
-          </div>
-        </span>
+
       </div>
 
       <div className="row projectRow1">
@@ -166,7 +169,7 @@ function App() {
             <p>Back-end: Axios || Express.js || Riot API</p>
           </div>
         </span>
-        <div className="col league-info">
+        <div className="col league-info panel">
           <h3>Flashcard Study app - Front-end deployed only - github linked</h3>
           <p>
 

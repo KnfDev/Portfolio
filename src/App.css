@@ -10,7 +10,7 @@ body {
 .navBar {
   text-align: center;
   font-family: 'Maven Pro', sans-serif;
-  font-size: 5vw;
+  font-size: 2em;
   padding: 50px;
   background: linear-gradient(#7a99b3, #41638279, #67839b78, #85a5c0);
 }
@@ -34,9 +34,9 @@ body {
 
 
 .script {
-  width: 85%;
-  margin-top: 100px;
-  transform: skewY(1.5deg);
+  margin-left: 85%;
+  width: 95%;
+  transform: skewY(-1deg);
   opacity: 0.5
 }
 
@@ -51,7 +51,7 @@ body {
   text-align: center;
   background-color: #39628372;
   transform: skew(14deg);
-  font-size: 2vw;
+  font-size: 20px;
 }
 
 .description > * {
@@ -77,7 +77,7 @@ body {
 }
 
 .league-info > h3 {
-  font-size: 5vw;
+  font-size: 3em;
   font-family: 'Maven Pro', sans-serif;
   text-shadow: 1px 1px white;
   padding-bottom: 2px;
@@ -85,7 +85,7 @@ body {
 }
 
 .study-info > h3 {
-  font-size: 5vw;
+  font-size: 3em;
   font-family: 'Maven Pro', sans-serif;
   text-shadow: 1px 1px white;
   padding-bottom: 2px;
@@ -93,19 +93,7 @@ body {
 }
 
 .league-info > p {
-  font-size: 3vw;
-}
-
-.restaurant-info > h3 {
-  font-size: 5vw;
-  font-family: 'Maven Pro', sans-serif;
-  text-shadow: 1px 1px white;
-  padding-bottom: 2px;
-  border-bottom: solid rgb(203, 196, 196);
-}
-
-.restaurant-info > p {
-  font-size: 3vw;
+  font-size: 24px;
 }
 
 .mario:hover{
@@ -118,6 +106,17 @@ body {
   background-size: cover;
 }
 
+.restaurant-info > h3 {
+  font-size: 3em;
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: 1px 1px white;
+  padding-bottom: 2px;
+  border-bottom: solid rgb(203, 196, 196);
+}
+
+.restaurant-info > p {
+  font-size: 24px;
+}
 
 .project1 {
   border-radius: 25px;
@@ -134,6 +133,10 @@ body {
 
 .projectRow1 {
   margin: 50px 0px;
+}
+
+.projectRow2{
+  flex-direction: row-reverse;
 }
 
 .project1:hover {
@@ -174,13 +177,9 @@ body {
   transition: 0.75s ease;
 }
 
-.header {
-  justify-content: space-between;
-}
-
 .aloha {
   font-family: "MuseoModerno", cursive;
-  font-size: 8vw;
+  font-size: 5vw;
   color: aliceblue;
   text-shadow: 4px 4px black;
   line-height: 97%;
@@ -230,9 +229,8 @@ body {
 }
 
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
+@media screen and (max-width: 550px) {
+  .navbar {
+    font-size: 10px;
   }
 }
