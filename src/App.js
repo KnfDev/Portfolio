@@ -26,7 +26,7 @@ function App() {
             Full-Stack Developer
           </p>
         </div>
-        <div className="col-4">
+        <div className="col col-sm col-lg-4 col-xl-4">
           <img className="script" src={script} alt=""/>
         </div>
       </div>
@@ -153,7 +153,7 @@ function App() {
       </div>
 
       <div className="row projectRow3">
-        <span className="col col-sm col-lg-6 col-xl-6">
+        <span className="projectSspan col col-sm col-lg-6 col-xl-6">
           <a href="https://knfdevflashcard.vercel.app/">
             <img className="project1" src={Study} alt="" />
           </a>
