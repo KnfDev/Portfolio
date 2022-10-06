@@ -69,6 +69,7 @@ function App() {
         </div>
       </div>
 
+      
       <div className="row projectRow2">
         <span className="project2Span col col-sm col-lg-6 col-xl-6">
           <a
@@ -117,19 +118,28 @@ function App() {
       </div>
 
       <div className="row projectRow1">
-        <span className="col col-sm col-m col-lg-6 col-xl-6">
-          <a href="https://github.com/KnfDev/Study-Tool-Application">
+        <span className="col col-sm col-lg-6 col-xl-6">
+          <a href="https://github.com/KnfDev/riot-stats-clone">
             <img className="project1" src={Study} alt="" />
           </a>
           <div className="description">
-            <p>Front-end built with React.js and Bootstrap fully responsive, Data is handled through a mock API and updates data to a local json file.</p>
+            <p>
+              Uses local API to make GET, PUT, POST, DELETE for Cards and Deck
+              information, All Cards and Decks stored on a local Json file
+            </p>
             <p>Front-end: React.js || Javascript || CSS || Bootstrap</p>
-            <p>Back-end: Axios || Express.js</p>
           </div>
         </span>
         <div className="col league-info panel">
-          <h3>Flashcard Study app - Front-end deployed only - github linked</h3>
-          <p>Description Here</p>
+          <h3>Flashcard Study App (Front-end Only)</h3>
+          <p>
+            This project was very ironic for me, I've always been a terrible student so building a Study App UI was almost rubbing salt in the wounds
+          </p>
+          <span className="gamer">I am gamer.</span>
+          <p>
+            That being said, the practical applications of this are not limited to just academic studying.
+            It could really be utilized for studying anything of interest whether it be games, animals, science.. heck even programming.
+          </p>
         </div>
       </div>
 
@@ -165,8 +175,8 @@ function App() {
             I decided I wanted to live in a way that whether it's 5 years from
             today, or 10 years, or at the end of my life I can look back and be
             proud of myself. So I enrolled at Thinkful in their Software
-            Engineering Immersion program to take a step toward
-            completing what I attempted a decade ago.
+            Engineering Immersion program to take a step toward completing what
+            I attempted a decade ago.
           </p>
           <p>
             It’s been a difficult 6 months, I’ve never felt more incompetent or
@@ -177,10 +187,10 @@ function App() {
             second of it.
           </p>
           <p>
-            I know this is just the first single small step and I have a really long
-            road ahead of me, but I’m so happy to be able to say that I have no
-            regrets about starting this new journey regardless of where it takes
-            me.
+            I know this is just the first single small step and I have a really
+            long road ahead of me, but I’m so happy to be able to say that I
+            have no regrets about starting this new journey regardless of where
+            it takes me.
           </p>
           <br />
           <p>Mahalo lui noa and ahui hou kakou!</p>

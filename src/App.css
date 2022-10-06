@@ -51,7 +51,25 @@ body {
   font-size: 20px;
 }
 
+.gamer {
+  font-size: 10px;
+}
+
+.description3 {
+  width: 100%;
+  margin-top: -15px;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #39628372;
+  transform: skew(14deg);
+  font-size: 20px;
+}
+
 .description > * {
+  transform: skew(-14deg);
+  margin-top: 20px;
+}
+.description3 > * {
   transform: skew(-14deg);
   margin-top: 20px;
 }
@@ -136,6 +154,14 @@ body {
   filter: grayscale(100%);
   border: 5px solid #555;
 }
+
+.project3 {
+  border-radius: 25px;
+  width: 100%;
+  filter: grayscale(100%);
+  border: 5px solid #555;
+}
+
 .project3 {
   border-radius: 25px;
   width: 100%;
@@ -183,12 +209,6 @@ body {
   border: 5px solid #555;
 }
 
-.project3 {
-  border-radius: 25px;
-  width: 100%;
-  filter: grayscale(100%);
-  border: 5px solid #555;
-}
 
 .project2a {
   display: flex;
