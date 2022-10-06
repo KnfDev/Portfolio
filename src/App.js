@@ -33,7 +33,7 @@ function App() {
         </div>
       </div>
 
-      <div className="row projectRow1 w-100">
+      <div className="row projectRow1">
         <div className="col col-sm col-lg-7 col-xl-7">
           <a href="https://github.com/KnfDev/riot-stats-clone">
             <img className="project1" src={LeagueTrack} alt="" />
@@ -70,7 +70,7 @@ function App() {
       </div>
 
       
-      <div className="row projectRow2 w-100">
+      <div className="row projectRow2">
         <div className="project2Span col col-sm col-lg-7 col-xl-7">
           <a
             className="project2a"
@@ -117,8 +117,8 @@ function App() {
         </div>
       </div>
 
-      <div className="row projectRow1 w-100">
-        <div className="project3Span col col-sm col-lg-7 col-xl-7">
+      <div className="row projectRow1">
+        <div className="project3Span col col col-md-7 col-lg-7 col-xl-7">
           <a href="https://github.com/KnfDev/riot-stats-clone">
             <img className="project1" src={Study} alt="" />
           </a>

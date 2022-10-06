@@ -42,7 +42,7 @@ body {
 
 
 .description {
-  width: 100%;
+  /* width: 100%; */
   margin-top: -15px;
   padding: 10px 0px;
   text-align: center;
@@ -56,7 +56,7 @@ body {
 }
 
 .description3 {
-  width: 100%;
+  /* width: 100%; */
   margin-top: -15px;
   padding: 10px 0px;
   text-align: center;
@@ -150,16 +150,15 @@ body {
 
 .project1 {
   border-radius: 25px;
-  width: 100%;
-  min-width: 50%;
+  width: 56vw;
+
   filter: grayscale(100%);
   border: 5px solid #555;
 }
 
 .project3 {
   border-radius: 25px;
-  width: 100%;
-  min-width: 50%;
+  min-width: 100%;
   filter: grayscale(100%);
   border: 5px solid #555;
 }
@@ -200,8 +199,7 @@ body {
 
 .project2 {
   border-radius: 25px;
-  width: 100%;
-  min-width: 50%;
+  width: 56vw;
   filter: grayscale(100%);
   border: 5px solid #555;
 }
@@ -233,6 +231,7 @@ body {
 
 .aloha {
   width: 100%;
+
   padding-top: 50px;
   padding-left: 75px;
   background-color: #4a6277;
