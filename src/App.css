@@ -151,6 +151,7 @@ body {
 .project1 {
   border-radius: 25px;
   width: 100%;
+  min-width: 50%;
   filter: grayscale(100%);
   border: 5px solid #555;
 }
@@ -158,16 +159,11 @@ body {
 .project3 {
   border-radius: 25px;
   width: 100%;
+  min-width: 50%;
   filter: grayscale(100%);
   border: 5px solid #555;
 }
 
-.project3 {
-  border-radius: 25px;
-  width: 100%;
-  filter: grayscale(100%);
-  border: 5px solid #555;
-}
 
 .projectRow1 {
   margin: 50px 0px;
@@ -205,6 +201,7 @@ body {
 .project2 {
   border-radius: 25px;
   width: 100%;
+  min-width: 50%;
   filter: grayscale(100%);
   border: 5px solid #555;
 }

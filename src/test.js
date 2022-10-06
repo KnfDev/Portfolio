@@ -33,8 +33,8 @@ function App() {
         </div>
       </div>
 
-      <div className="row projectRow1 w-100">
-        <div className="col col-sm col-lg-7 col-xl-7">
+      <div className="row projectRow1">
+        <span className="col col-sm col-lg-6 col-xl-6">
           <a href="https://github.com/KnfDev/riot-stats-clone">
             <img className="project1" src={LeagueTrack} alt="" />
           </a>
@@ -46,8 +46,8 @@ function App() {
             <p>Front-end: React.js || Javascript || CSS || Bootstrap</p>
             <p>Back-end: Axios || Express.js || Riot API</p>
           </div>
-        </div>
-        <div className="col league-info">
+        </span>
+        <div className="col league-info panel">
           <h3>League of Legends stat aggregator clone (work in progress)</h3>
           <p>
             This is my first personal project and I wanted to make something
@@ -70,8 +70,8 @@ function App() {
       </div>
 
       
-      <div className="row projectRow2 w-100">
-        <div className="project2Span col col-sm col-lg-7 col-xl-7">
+      <div className="row projectRow2">
+        <span className="project2Span col col-sm col-lg-6 col-xl-6">
           <a
             className="project2a"
             href="https://knf-restaurant-client.herokuapp.com/dashboard"
@@ -90,7 +90,7 @@ function App() {
               API
             </p>
           </div>
-        </div>
+        </span>
         <div className="col restaurant-info panel">
           <h3>Restaurant App Full-Stack Dynamic</h3>
           <p>
@@ -117,8 +117,8 @@ function App() {
         </div>
       </div>
 
-      <div className="row projectRow1 w-100">
-        <div className="project3Span col col-sm col-lg-7 col-xl-7">
+      <div className="row projectRow1">
+        <span className="col col-sm col-lg-7 col-xl-7">
           <a href="https://github.com/KnfDev/riot-stats-clone">
             <img className="project1" src={Study} alt="" />
           </a>
@@ -129,7 +129,7 @@ function App() {
             </p>
             <p>Front-end: React.js || Javascript || CSS || Bootstrap</p>
           </div>
-        </div>
+        </span>
         <div className="col league-info panel">
           <h3>Flashcard Study App (Front-end Only)</h3>
           <p>
