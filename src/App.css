@@ -1,5 +1,185 @@
-.App {
+.container {
+  width: 100vw;
   text-align: center;
+}
+
+body {
+  background-color: #85a5c0;
+}
+
+.navBar {
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 2em;
+  padding: 50px;
+  background: linear-gradient(#7a99b3, #41638279, #67839b78, #85a5c0);
+}
+
+.me{
+  border-radius: 50%;
+  max-width:17%;
+  margin: 20px auto;
+    /* border: 5px solid aliceblue; */
+}
+
+
+.navBar > span > a {
+  color: #282c34;
+  text-decoration: none;
+}
+.navBar > span > a:hover {
+  color: #b7bdc8;
+}
+
+
+
+.script {
+  margin-left: 85%;
+  width: 95%;
+  transform: skewY(-1deg);
+  opacity: 0.5
+}
+
+.aloha {
+  width: 125%;
+  padding-top: 50px;
+  padding-left: 75px;
+  background-color: #4a6277;
+  transform: skew(-7deg);
+  font-size: 20px;
+}
+
+
+
+.description {
+  width: 100%;
+  margin-top: -15px;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #39628372;
+  transform: skew(14deg);
+  font-size: 20px;
+}
+
+.description > * {
+  transform: skew(-14deg);
+  margin-top: 20px;
+}
+
+.aboutMe{
+  background: linear-gradient(#85a5c0, #41638279, #67839b78, #85a5c0);
+}
+
+.aboutMe > p {
+  width: 75%;
+  margin: 15px auto 10px auto;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 3em;
+  color: #eff2f8;
+  text-decoration:underline ;
+}
+
+.league-info > h3 {
+  font-size: 3em;
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: 1px 1px white;
+  padding-bottom: 2px;
+  border-bottom: solid rgb(203, 196, 196);
+}
+
+.study-info > h3 {
+  font-size: 3em;
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: 1px 1px white;
+  padding-bottom: 2px;
+  border-bottom: solid rgb(203, 196, 196);
+}
+
+.league-info > p {
+  font-size: 24px;
+}
+
+.mario:hover{
+  background-image: url("./images/mario.png");
+  background-size: cover;
+}
+.pineapple:hover{
+  transition: opacity ease-in 1s;
+  background-image: url("./images/pineapple.png");
+  background-size: cover;
+}
+
+.restaurant-info > h3 {
+  font-size: 3em;
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: 1px 1px white;
+  padding-bottom: 2px;
+  border-bottom: solid rgb(203, 196, 196);
+}
+
+.restaurant-info > p {
+  font-size: 24px;
+}
+
+.project1 {
+  border-radius: 25px;
+  width: 100%;
+  filter: grayscale(100%);
+  border: 5px solid #555;
+}
+
+.projectRow1 {
+  margin: 50px 0px;
+}
+
+.project1:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  filter: none;
+  transition: 0.75s ease;
+}
+
+.project2Span > a {
+  width: 100%;
+  margin-left: auto;
+}
+
+.project2 {
+  border-radius: 25px;
+  width: 100%;
+  filter: grayscale(100%);
+  border: 5px solid #555;
+}
+
+.project3 {
+  border-radius: 25px;
+  width: 100%;
+  filter: grayscale(100%);
+  border: 5px solid #555;
+}
+
+.project2a {
+  display: flex;
+  justify-content: right;
+}
+
+.project2:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  filter: none;
+  transition: 0.75s ease;
+}
+
+.aloha {
+  font-family: "MuseoModerno", cursive;
+  font-size: 6em;
+  color: aliceblue;
+  text-shadow: 4px 4px black;
+  line-height: 97%;
 }
 
 .App-logo {
