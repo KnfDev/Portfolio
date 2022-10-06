@@ -148,7 +148,7 @@ function App() {
         <div className="aboutMeInfo col">
           <p>Aloha!</p>
           I'm Kenneth from the beautiful sate of Hawaii and I'll be turning 34
-          on Oct 28 2022,
+          in Oct 2022,
           <p>
             To keep things short, I've been in hospitality for almost 20 years
             now. First job was at Cold Stones when I was 14 or 15 years old and
