@@ -32,8 +32,8 @@ function App() {
       </div>
 
       <div className="row projectRow1">
-        <span className="col-6">
-          <a href="https://github.com/KnfDev">
+        <span className="col-sm col-6">
+          <a href="https://github.com/KnfDev/riot-stats-clone">
             <img className="project1" src={LeagueTrack} alt="" />
           </a>
           <div className="description">
@@ -130,7 +130,7 @@ function App() {
             loved cafes and there aren't that many in Hawaii.
           </p>
         </div>
-        <span className="project2Span col-6">
+        <span className="project2Span col-sm col-6">
           <a
             className="project2a"
             href="https://knf-restaurant-client.herokuapp.com/dashboard"
@@ -153,8 +153,8 @@ function App() {
       </div>
 
       <div className="row projectRow3">
-        <span className="col-6">
-          <a href="https://github.com/KnfDev">
+        <span className="col-sm col-6">
+          <a href="https://knfdevflashcard.vercel.app/">
             <img className="project1" src={Study} alt="" />
           </a>
           <div className="description">
