@@ -3,7 +3,6 @@ import LeagueTrack from "./images/LeagueTrack.png";
 import RestaurantLanding from "./images/RestaurantLanding.png";
 import Resume from "./images/Resume.pdf";
 import Photo from "./images/Photo.png";
-import script from "./images/script.png";
 import Study from "./images/Study.png";
 import linkedin from "./images/linkedin.png";
 import Github from "./images/Github.jpg";
@@ -69,7 +68,6 @@ function App() {
         </div>
       </div>
 
-      
       <div className="row projectRow2">
         <div className="project2Span col col-sm col-lg-7 col-xl-7">
           <a
@@ -119,7 +117,7 @@ function App() {
 
       <div className="row projectRow1">
         <div className="project3Span col col col-md-7 col-lg-7 col-xl-7">
-          <a href="https://github.com/KnfDev/riot-stats-clone">
+          <a href="https://github.com/KnfDev/Study-Tool-Application">
             <img className="project1" src={Study} alt="" />
           </a>
           <div className="description">
@@ -133,12 +131,16 @@ function App() {
         <div className="col league-info panel">
           <h3>Flashcard Study App (Front-end Only)</h3>
           <p>
-            This project was very ironic for me, I've always been a terrible student so building a Study App UI was almost rubbing salt in the wounds
+            This project was very ironic for me, I've always been a terrible
+            student so building a Study App UI was almost rubbing salt in the
+            wounds
           </p>
           <span className="gamer">I am gamer.</span>
           <p>
-            That being said, the practical applications of this are not limited to just academic studying.
-            It could really be utilized for studying anything of interest whether it be games, animals, science.. heck even programming.
+            That being said, the practical applications of this are not limited
+            to just academic studying. It could really be utilized for studying
+            anything of interest whether it be games, animals, science.. heck
+            even programming.
           </p>
         </div>
       </div>
@@ -153,7 +155,9 @@ function App() {
             To keep things short, I've been in hospitality for almost 20 years
             now. First job was at Cold Stones when I was 14 or 15 years old and
             I was working as a Front Desk Representative for The Marriott for
-            the past 5 years.
+            the past 5 years. I had actually been enrolled in Computer Science
+            at my local college 10 years ago but I had to drop out due to
+            financial reasons.
           </p>
           <p>
             In the beginning of 2022 I had a big life changing moment, no it
@@ -161,30 +165,11 @@ function App() {
             had accomplished up until now.
           </p>
           <p>
-            Sad to say what I realized was that I hadn't accomplished much,
-            there wasn't much I was proud of, and my life was full of regret.
-          </p>
-          <p>
-            10 years ago I had actually been enrolled at my local College for
-            Computer Science but I had to drop out due to financial reasons, 10
-            years later I had managed to become a home owner and I was making
-            enough to pay for mortgage and still have some money left over to
-            enjoy. I was miserable.
-          </p>
-          <p>
             I decided I wanted to live in a way that whether it's 5 years from
             today, or 10 years, or at the end of my life I can look back and be
             proud of myself. So I enrolled at Thinkful in their Software
             Engineering Immersion program to take a step toward completing what
             I attempted a decade ago.
-          </p>
-          <p>
-            It’s been a difficult 6 months, I’ve never felt more incompetent or
-            stupid in my life, and I really doubted if this was something that I
-            was capable of doing anymore at this point. While my confidence has
-            been at an all-time low, I am able to say that even though there
-            were many head-banging and hair-pulling moments I enjoyed every
-            second of it.
           </p>
           <p>
             I know this is just the first single small step and I have a really
