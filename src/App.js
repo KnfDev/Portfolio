@@ -122,7 +122,7 @@ function App() {
             <img className="project1" src={Study} alt="" />
           </a>
           <div className="description">
-            <p>Description Here</p>
+            <p>Front-end built with React.js and Bootstrap fully responsive, Data is handled through a mock API and updates data to a local json file.</p>
             <p>Front-end: React.js || Javascript || CSS || Bootstrap</p>
             <p>Back-end: Axios || Express.js</p>
           </div>
