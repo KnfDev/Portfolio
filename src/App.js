@@ -20,7 +20,7 @@ function App() {
         </span>
       </div>
       <div className="row header">
-        <div className="col-4">
+        <div className="col col-sm col-lg-4 col-xl-4">
           <p className="aloha">
             <span className="pineapple">Aloha</span>, I'm Kenneth & I'm a
             Full-Stack Developer
